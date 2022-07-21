@@ -1,0 +1,127 @@
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/**/
+
+.loginPage {
+    background-color: rgb(172, 172, 172);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+
+/**/
+
+.loginSide {
+    background-color: rgb(113, 158, 113);
+    float: left;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 500px;
+}
+
+.loginBox {
+    text-align: center;
+    margin-top: 40%;
+}
+
+
+/* Login Fields Style */
+
+.loginField {
+    margin-top: 8vh;
+}
+
+.loginInput {
+    border-width: 0;
+    background-color: rgb(113, 158, 113);
+    outline: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    font-size: 16px;
+    transition: 200ms;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(224, 224, 224);
+}
+
+.loginInput:focus {
+    border-radius: 8px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Login Button Style */
+
+.loginButton {
+    margin-top: 40px;
+}
+
+.loginBtn {
+    background-color: rgb(173, 231, 173);
+    border-width: 0;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
+    transition: 200ms;
+}
+
+.loginBtn:hover {
+    background-color: rgb(75, 105, 75);
+    cursor: pointer;
+}
+
+.SignUpText {
+    margin-top: 4vh;
+}
+
+/* Login Page Styler */
+
+.loginStyler1 {
+    float: left;
+    margin-left: 500px;
+    display: block;
+    height: 100%;
+    width: 25px;
+    background-color: rgb(113, 158, 113);
+}
+
+.loginStyler2 {
+    float: left;
+    margin-left: -20px;
+    display: grid;
+    height: 100%;
+    width: 25px;
+    background-color: rgb(172, 172, 172);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.Error {
+    margin-top: 20px;
+    color: red;
+}
+
+/* rgb(88, 112, 88) */

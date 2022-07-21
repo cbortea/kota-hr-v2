@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./Static/Styles/register.css">
+    </head>
+    <body>
+        <form action="/register" method = "post">
+            <div class="registerPage">
+                <div class="registerSide">
+                    <div class="registerBox">
+                        <div>
+                            <h1>Sign-Up</h1>
+                        </div>
+                        <div class="registerField companyField">
+                            <a class="registerFieldContent text"><p>Company</p></a>
+                            <a class="registerFieldContent"><input class="registerInput" type="text" name="comp"/></a>
+                        </div>
+                        <div class="registerField firstNameField">
+                            <a class="registerFieldContent text"><p>First Name</p></a>
+                            <a class="registerFieldContent"><input class="registerInput" type="text" name="fn"/></a>
+                        </div>
+                        <div class="registerField lastNameField">
+                            <a class="registerFieldContent text"><p>Last Name</p></a>
+                            <a class="registerFieldContent"><input class="registerInput" type="text" name="ln"/></a>
+                        </div>
+                        <div class="registerField emailField">
+                            <a class="registerFieldContent text"><p>Email</p></a>
+                            <a class="registerFieldContent"><input class="registerInput" type="email" name="em"/></a>
+                        </div>
+                        <div class="registerField usernameField">
+                            <a class="registerFieldContent text"><p>Username</p></a>
+                            <a class="registerFieldContent"><input class="registerInput" type="text" name="usr"/></a>
+                        </div>
+                        <div class="registerField passwordField">
+                            <a class="registerFieldContent text"><p>Password</p></a>
+                            <a class="registerFieldContent"><input class="registerInput" type="password" name="pwd"/></a>
+                        </div>
+                        <div class="registerButton">
+                            <a class="registerSubmit"><input class="registerBtn" type="submit" name="registerSubmit"/></a>
+                        </div>
+                        <div class="Error">
+                            <a><p>{{ErrMsg}}</p></a>
+                        </div>
+                        <div class="SignInText">
+                            <a><p>You already have an account?</p><a href="/login">Sign-In</a></a>
+                        </div>
+                    </div>
+                </div>
+                <b class="registerStyler1"></b>
+                <b class="registerStyler2"></b>
+            </div>
+        </form>
+    </body>
+</html>

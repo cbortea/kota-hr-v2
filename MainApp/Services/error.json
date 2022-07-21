@@ -1,0 +1,64 @@
+{
+    "signin": {
+        "E0001": {
+            "value": "Please review the form and make corrections!",
+            "description": "The error will appear when the user tries to authenticate with empty fields."
+        },
+        "E0002": {
+            "value": "Internal Server Error.",
+            "description": ""
+        },
+        "E0003": {
+            "value": "Username or password is invalid.",
+            "log": "NO_ACCOUNT",
+            "description": "This error will appear when the user tries to authenticate with an account that does not exist"
+        },
+        "E0004": {
+            "value": "Username or password is invalid.",
+            "log": "INVALID_CREDENTIALS",
+            "description": "This error will appear when the user tries to authetnicate with the wrong password"
+        },
+        "E0005": {
+            "value": "Internal Server Error.",
+            "description": ""
+        }
+    },
+    "signup": {
+        "E0006": {
+            "value": "Company cannot be blank!",
+            "description": ""
+        },
+        "E0007": {
+            "value": "First Name cannot be blank!",
+            "description": ""
+        },
+        "E0008": {
+            "value": "Last Name cannot be blank!",
+            "description": ""
+        },
+        "E0009": {
+            "value": "Email cannot be blank!",
+            "description": ""
+        },
+        "E0010": {
+            "value": "Username cannot be blank!",
+            "description": ""
+        },
+        "E0011": {
+            "value": "Password cannot be blank!",
+            "description": ""
+        },
+        "E0012": {
+            "value": "Company already exists!",
+            "description": ""
+        },
+        "E0013": {
+            "value": "Password not compliant!",
+            "description": ""
+        },
+        "E0014": {
+            "value": "",
+            "description": ""
+        }
+    }
+}

@@ -1,0 +1,14 @@
+services:
+  app:
+    build: ./MainApp/
+    command: sh -c "sleep 10s ; python3 ./Services/main.py"
+    depends_on:
+      - mysql
+    ports:
+      - '5002:5000'
+  mysql:
+    build: ./DataBase/
+    environment:
+      - MYSQL_ROOT_PASSWORD=VroomMustang2000!
+    ports:
+      - '3306:3306'

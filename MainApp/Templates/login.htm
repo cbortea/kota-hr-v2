@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./Static/Styles/login.css">
+    </head>
+    <body>
+        <form action="/login" method = "post">
+            <div class="loginPage">
+                <div class="loginSide">
+                    <div class="loginBox">
+                        <div class="signInText">
+                            <h1>Sign-In</h1>
+                        </div>
+                        <div class="loginField companyField">
+                            <a class="loginFieldContent text"><p>Company</p></a>
+                            <a class="loginFieldContent"><input class="loginInput" type="text" name="comp"/></a>
+                        </div>
+                        <div class="loginField usernameField">
+                            <a class="loginFieldContent text"><p>Username</p></a>
+                            <a class="loginFieldContent"><input class="loginInput" type="text" name="usr"/></a>
+                        </div>
+                        <div class="loginField passwordField">
+                            <a class="loginFieldContent text"><p>Password</p></a>
+                            <a class="loginFieldContent"><input class="loginInput" type="password" name="pwd"/></a>
+                        </div>
+                        <div class="loginButton">
+                            <a class="loginSubmit"><input class="loginBtn" type="submit" name="loginSubmit"/></a>
+                        </div>
+                        <div class="Error">
+                            <a><p>{{ErrMsg}}</p></a>
+                        </div>
+                        <div class="SignUpText">
+                            <a><p>You don't have an account?</p><a href="/register">Create one</a></a>
+                        </div>
+                    </div>
+                </div>
+                <b class="loginStyler1"></b>
+                <b class="loginStyler2"></b>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+regex
+mysql-connector-python
+mysql.connector
+mysql_connector
+mysql-connector
