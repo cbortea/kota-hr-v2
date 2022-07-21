@@ -1,6 +1,6 @@
 services:
   app:
-    image: 302408144168.dkr.ecr.us-west-2.amazonaws.com/kota-hr-myapp-py
+    image: cbortea/kota-hr-v2:0.1
     command: sh -c "sleep 10s ; python3 ./Services/main.py"
     depends_on:
       - mysql
