@@ -7,7 +7,7 @@ services:
     ports:
       - '5002:5000'
   mysql:
-    build: ./DataBase/
+    image: mysql:latest
     environment:
       - MYSQL_ROOT_PASSWORD=VroomMustang2000!
     ports:
